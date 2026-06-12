@@ -1,20 +1,22 @@
-<<<<<<< HEAD
-# Taskcraft
-=======
-# React + Vite
+# 🚀 Taskcraft - Kanban Board
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Taskcraft est une application de gestion de tâches de type Kanban fluide, moderne et robuste. Conçue avec **React**, **Vite** et **Tailwind CSS**, elle intègre une gestion complète du glisser-déposer (*Drag & Drop*) ainsi qu'une modale dynamique pour éditer les détails et priorités de chaque tâche.
 
-Currently, two official plugins are available:
+## ✨ Fonctionnalités
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Tableau Kanban Interactif** : Trois colonnes de suivi de flux (`À faire`, `En cours`, `Terminé`).
+* **Drag & Drop Natif et Fluide** : Réordonnez vos tâches à l'intérieur d'une colonne ou déplacez-les de l'une à l'autre grâce à `@hello-pangea/dnd`.
+* **Ajout Rapide** : Créez de nouvelles cartes directement depuis le bas de chaque colonne en un clic.
+* **Édition Avancée (Modale)** : Cliquez sur n'importe quelle carte pour ouvrir un panneau de détails permettant de modifier son titre, sa description ou sa priorité (`Basse`, `Moyenne`, `Haute`).
+* **Suppression de tâches** : Nettoyez votre tableau instantanément depuis l'interface d'édition.
+* **Design Moderne** : Interface utilisateur épurée et réactive conçue avec **Tailwind CSS** et agrémentée d'icônes **Lucide React**.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Installation
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> feb3dc7 (commit : ajout du projet)
+* npm install @hello-pangea/dnd lucide-react
+* npm install -D tailwindcss postcss autoprefixer
+* npx tailwindcss init -p
+* npm install @tailwindcss/vite tailwindcss
+* npm run dev
