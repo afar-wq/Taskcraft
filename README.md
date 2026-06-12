@@ -1,6 +1,6 @@
 # 🚀 Taskcraft - Kanban Board
 
-Taskcraft est une application de gestion de tâches de type Kanban fluide, moderne et robuste. Conçue avec **React**, **Vite** et **Tailwind CSS**, elle intègre une gestion complète du glisser-déposer (*Drag & Drop*) ainsi qu'une modale dynamique pour éditer les détails et priorités de chaque tâche.
+Taskcraft est une application de gestion de tâches de type Kanban fluide, moderne et robuste. Conçue avec **React**, **Vite** et **Tailwind CSS**, elle intègre une gestion complète du glisser-déposer (*Drag & Drop*).
 
 ## ✨ Fonctionnalités
 
